@@ -2013,11 +2013,12 @@ button,
   -webkit-transition: border-color 0.2s ease;
   -ms-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
-  background-color: transparent;
+  background-color: white;
   border: solid 1px !important;
-  border-color: rgba(255, 255, 255, 0.15) !important;
+  border-color: #6200ee !important;
   border-radius: 3em;
-  color: #ffffff !important;
+
+  color: #6200ee !important;
   cursor: pointer;
   display: inline-block;
   font-size: 0.6em;
@@ -4124,6 +4125,7 @@ ul.menu {
     background-color: #b74e91;
   }
 }
+
 .wrappers {
   display: none;
 }
@@ -4138,13 +4140,15 @@ ul.menu {
 
     --green: #4eca78;
   }
-
+  .wrappers {
+    display: none;
+  }
+}
   /* =======
+}
 wrappers
 ======= */
-  .wrappers {
-    display: block;
-  }
+  
 
   /* =====================
 NAVIGATION BACKGROUND
