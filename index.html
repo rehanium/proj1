@@ -9,6 +9,8 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -55,7 +57,26 @@
           <h1>Startup</h1>
           <p>Protect Your Business From Hackers</p>
           <ul class="actions">
-            <li><a href="#one" class="button scrolly">Learn more</a></li>
+            <li><a href="#one" class="mdc-button mdc-button--outlined  scrolly foo-button" style="
+            background-color: white;
+            border-color: #6200ee;
+                box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+            cursor: pointer;
+            font-size: 0.6em;
+            font-weight: bold;
+            height: calc(4.75em + 2px);
+    letter-spacing: 0.25em;
+    line-height: 4.75em;
+    outline: 0;
+    padding: 0 3.75em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+            ">
+            	<div class="mdc-button__ripple"></div>
+            	<span class="mdc-button__label"></span>Learn more</a></li>
           </ul>
         </div>
       </section>
@@ -75,7 +96,7 @@
                 dapibus.
               </p>
               <ul class="actions">
-                <li><a href="#" class="button">Learn more</a></li>
+                <li><a href="#" class="button scrolly">Learn more</a></li>
               </ul>
             </div>
           </div>
@@ -353,6 +374,9 @@
       //toggleBtn.onclick = toggleMenu;
       toggleBtn.addEventListener("click", toggleMenu, false);
       window.addEventListener("resize", resizeHandler, false);
+    </script>
+    <script>
+    	mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));
     </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
