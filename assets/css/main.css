@@ -3416,7 +3416,8 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #5e42a6;
+  background-color: #ffffff;
+  color: #1d1d1f;
 }
 
 .wrapper.style1-alt {
@@ -3500,7 +3501,7 @@ body.is-ie .wrapper.fullscreen {
     height: 400px;
 		}
 		.cards-new:hover {
-			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+			box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
 		}
 
 		.text-new {
